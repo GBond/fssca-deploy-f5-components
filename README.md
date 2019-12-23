@@ -1,5 +1,5 @@
 # fssca-deploy-f5-components
-A comprehensive demonstration Ansible-based solution to quickly build and deploy an application in a public cloud using F5 and NGINX technology
+A comprehensive demonstration Ansible-based solution to quickly build and deploy an application in a public cloud using F5 and NGINX technology adhering to the Financial Services Secure Cloud Architecture reference design. 
 
 ## Featuring
 - [F5 BIG-IP](https://www.f5.com/products/big-ip-services)
