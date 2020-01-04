@@ -2,7 +2,7 @@
 Secure Cloud Architecture Financial Services.  SCA-FS is an architecture and immediately deployable set of cloud infrastructure and application components that demonstrate Infrastructure as Code principles. We use best practice application patterns that highlight F5's best in class cloud security and deployability. 
 
 This repo is part 2 (of 2) of FS-SCA. Part 1 can be found here:
-https://github.com/GBond/fssca-deploy-f5-components-ansible
+https://github.com/GBond/fssca-deploy-f5-cloud-terraform
 
 ## Description
 This project demonstrations an Ansible-based solution to quickly build and deploy an application in a public cloud using F5 and NGINX technology adhering to the Financial Services Secure Cloud Architecture reference design. 
