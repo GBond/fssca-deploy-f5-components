@@ -105,8 +105,8 @@ The following are the actual steps needed to execute the demo:
     3. `save sys config`
     4. `quit`
 3. Ssh into Ubuntu server and run the following
-    1. `git clone https://github.com/aknot242/ansible-uber-demo.git`
-    2. `cd ansible-uber-demo`
+    1. `git clone https://github.com/GBond/fssca-deploy-f5-components-ansible.git`
+    2. `cd fssca-deploy-f5-components-ansible`
     3. Set password in host vars file: `nano ansible/host_vars/10.1.1.4.yml` 
     4. Run `./install-ubuntu-dependencies.sh`
     5. Run `./deploy.sh`
