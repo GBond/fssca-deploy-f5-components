@@ -45,8 +45,8 @@ ssh -i <path to privatekeyfile> ubuntu@<ubuntuserver>
 - prepare the jumphost to run the ansible playbook with the follow commands
 ```bash
 git clone https://github.com/GBond/fssca-deploy-f5-components-ansible.git 
-cp ~/inventory.yml ~/ansible-uber-demo/ansible/inventory.yml
-cd ansible-uber-demo
+cp ~/inventory.yml ~/fssca-deploy-f5-components-ansible/ansible/inventory.yml
+cd fssca-deploy-f5-components-ansible
 ./install-ubuntu-dependencies.sh # This will install the linux dependencies required to run Docker and Ansible.
 ```
 - run the ansible playboook with the following command
