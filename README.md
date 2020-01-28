@@ -93,7 +93,7 @@ The following is a high-level flow of the steps taken when preparing for and exe
     1. Send automated requests to Juice Shop application
     2. Execute OWASP ZAP to discover and exploit vulnerabilities in Juice Shop application
     3. Show working Juice Shop web site
-    4. Show Grafana dashboard
+    4. Show Grafana dashboard (login: admin/admin)
 
 ## Demo Flow
 The following are the actual steps needed to execute the demo:
