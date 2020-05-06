@@ -51,463 +51,463 @@
   <allowed_response_code>503</allowed_response_code>
   <blocking>
     <enforcement_mode>blocking</enforcement_mode>
-    <violation name="Illegal attachment in SOAP message" id="ILLEGAL_SOAP_ATTACHMENT">
+    <violation name="Illegal attachment in SOAP message - PCI 6.5.6" id="ILLEGAL_SOAP_ATTACHMENT">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Login URL expired" id="PARSER_EXPIRED_INGRESS_OBJECT">
+    <violation name="Login URL expired - PCI 6.5.8" id="PARSER_EXPIRED_INGRESS_OBJECT">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Login URL bypassed" id="ILLEGAL_INGRESS_OBJECT">
+    <violation name="Login URL bypassed  - PCI 6.5.8" id="ILLEGAL_INGRESS_OBJECT">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Virus detected" id="VIRUS_DETECTED">
+    <violation name="Virus detected - PCI 6.5.6" id="VIRUS_DETECTED">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Web Services Security failure" id="PARSER_FAILED_SOAP_SECURITY">
+    <violation name="Web Services Security failure - PCI 6.5.8" id="PARSER_FAILED_SOAP_SECURITY">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="XML data does not comply with format settings" id="XML_FORMAT_SETTING">
+    <violation name="XML data does not comply with format settings - PCI 6.5.1" id="XML_FORMAT_SETTING">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="XML data does not comply with schema or WSDL document" id="XML_WSDL">
+    <violation name="XML data does not comply with schema or WSDL document - PCI 6.5.1" id="XML_WSDL">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Malformed XML data" id="MALFORMED_XML">
+    <violation name="Malformed XML data" id="MALFORMED_XML - PCI 6.5.1">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="CSRF attack detected" id="CSRF">
+    <violation name="CSRF attack detected - PCI 6.5.7" id="CSRF">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Failed to convert character" id="CHAR_CONV">
+    <violation name="Failed to convert character - PCI 6.5.1" id="CHAR_CONV">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal query string length" id="QS_LEN">
+    <violation name="Illegal query string length - PCI 6.5.1" id="QS_LEN">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal request length" id="REQ_LEN">
+    <violation name="Illegal request length - PCI 6.5.1" id="REQ_LEN">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal cookie length" id="COOKIE_LEN">
+    <violation name="Illegal cookie length - PCI 6.5.1" id="COOKIE_LEN">
       <alarm>true</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal URL length" id="OBJ_LEN">
-      <alarm>true</alarm>
-      <block>false</block>
-      <learn>true</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="CSRF authentication expired" id="CSRF_EXPIRED">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Brute Force: Maximum login attempts are exceeded" id="BRUTE_FORCE_ATTACK_DETECTED">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="SOAP method not allowed" id="SOAP_METHOD_NOT_ALLOWED">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Illegal meta character in value" id="METACHAR_IN_DEF_PARAM">
+    <violation name="Illegal URL length - PCI 6.5.1" id="OBJ_LEN">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal meta character in parameter name" id="METACHAR_IN_PARAM_NAME">
+    <violation name="CSRF authentication expired - PCI 6.5.7" id="CSRF_EXPIRED">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Brute Force: Maximum login attempts are exceeded - PCI 6.5.8" id="BRUTE_FORCE_ATTACK_DETECTED">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="SOAP method not allowed - PCI 6.5.4" id="SOAP_METHOD_NOT_ALLOWED">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Illegal meta character in value - PCI 6.5.1" id="METACHAR_IN_DEF_PARAM">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal meta character in URL" id="METACHAR_IN_OBJ">
+    <violation name="Illegal meta character in parameter name - PCI 6.5.1" id="METACHAR_IN_PARAM_NAME">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="JSON data does not comply with format settings" id="JSON_FORMAT_SETTING">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Illegal header length" id="HEADER_LEN">
-      <alarm>true</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Null in multi-part parameter value" id="MULTI_PART_PARAM_VAL">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Illegal POST data length" id="POST_DATA_LEN">
+    <violation name="Illegal meta character in URL - PCI 6.5.1" id="METACHAR_IN_OBJ">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal parameter" id="PARAM">
+    <violation name="JSON data does not comply with format settings - PCI 6.5.1" id="JSON_FORMAT_SETTING">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal query string or POST data" id="QS_OR_POST_DATA">
+    <violation name="Illegal header length - PCI 6.5.1" id="HEADER_LEN">
+      <alarm>true</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Null in multi-part parameter value - PCI 6.5.1" id="MULTI_PART_PARAM_VAL">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal URL" id="OBJ_DOESNT_EXIST">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Illegal file type" id="OBJ_TYPE">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Illegal parameter data type" id="PARAM_DATA_TYPE">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Illegal parameter value length" id="PARAM_VALUE_LEN">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>true</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Malformed JSON data" id="MALFORMED_JSON">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
-      <policy_builder_tracking>enabled</policy_builder_tracking>
-    </violation>
-    <violation name="Cookie not RFC-compliant" id="NOT_RFC_COOKIE">
+    <violation name="Illegal POST data length - PCI 6.5.1" id="POST_DATA_LEN">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Modified domain cookie(s)" id="MOD_DOMAIN_COOKIE">
+    <violation name="Illegal parameter - PCI 6.5.1" id="PARAM">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal request content type" id="ILLEGAL_REQUEST_CONTENT_TYPE">
+    <violation name="Illegal query string or POST data - PCI 6.5.1" id="QS_OR_POST_DATA">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal meta character in header" id="METACHAR_IN_HEADER">
+    <violation name="Illegal URL - PCI 6.5.1" id="OBJ_DOESNT_EXIST">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Illegal file type - PCI 6.5.1" id="OBJ_TYPE">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Illegal parameter data type - PCI 6.5.1" id="PARAM_DATA_TYPE">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Illegal parameter value length - PCI 6.5.1" id="PARAM_VALUE_LEN">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>true</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Malformed JSON data - PCI 6.5.1" id="MALFORMED_JSON">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Cookie not RFC-compliant - PCI 6.5.1" id="NOT_RFC_COOKIE">
       <alarm>true</alarm>
       <block>false</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Malformed GWT data" id="MALFORMED_GWT">
+    <violation name="Modified domain cookie(s) - PCI 6.5.1" id="MOD_DOMAIN_COOKIE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Disallowed file upload content detected" id="DISALLOWED_FILE_UPLOAD_CONTENT">
+    <violation name="Illegal request content type - PCI 6.5.1" id="ILLEGAL_REQUEST_CONTENT_TYPE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal Base64 value" id="BASE64_PARAM_VALUE">
+    <violation name="Illegal meta character in header - PCI 6.5.1" id="METACHAR_IN_HEADER">
+      <alarm>true</alarm>
+      <block>false</block>
+      <learn>true</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Malformed GWT data - PCI 6.5.1" id="MALFORMED_GWT">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="GWT data does not comply with format settings" id="GWT_FORMAT_SETTING">
+    <violation name="Disallowed file upload content detected - PCI 6.5.1" id="DISALLOWED_FILE_UPLOAD_CONTENT">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal redirection attempt" id="REDIRECT">
+    <violation name="Illegal Base64 value - PCI 6.5.1" id="BASE64_PARAM_VALUE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Data Guard: Information leakage detected" id="RESPONSE_SCRUBBING">
+    <violation name="GWT data does not comply with format settings - PCI 6.5.1" id="GWT_FORMAT_SETTING">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Illegal redirection attempt - PCI 6.5.1" id="REDIRECT">
+      <alarm>false</alarm>
+      <block>false</block>
+      <learn>false</learn>
+      <policy_builder_tracking>enabled</policy_builder_tracking>
+    </violation>
+    <violation name="Data Guard: Information leakage detected - PCI 6.5.1" id="RESPONSE_SCRUBBING">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Request length exceeds defined buffer size" id="REQUEST_TOO_LONG">
+    <violation name="Request length exceeds defined buffer size - PCI 6.5.1" id="REQUEST_TOO_LONG">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Evasion technique detected" id="EVASION_DETECTED">
+    <violation name="Evasion technique detected - PCI 6.5.6" id="EVASION_DETECTED">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="HTTP protocol compliance failed" id="HTTP_SANITY_CHECK_FAILED">
+    <violation name="HTTP protocol compliance failed - PCI 6.5.4" id="HTTP_SANITY_CHECK_FAILED">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Access from disallowed Geolocation" id="ILLEGAL_GEOLOCATION">
+    <violation name="Access from disallowed Geolocation - PCI 6.5.6" id="ILLEGAL_GEOLOCATION">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal repeated parameter name" id="REPEATED_PARAMETER_NAME">
+    <violation name="Illegal repeated parameter name - PCI 6.5.1" id="REPEATED_PARAMETER_NAME">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal empty parameter value" id="EMPTY_PARAM_VALUE">
+    <violation name="Illegal empty parameter value - PCI 6.5.1" id="EMPTY_PARAM_VALUE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal session ID in URL" id="SESSSION_ID_IN_URL">
+    <violation name="Illegal session ID in URL - PCI 6.5.6" id="SESSSION_ID_IN_URL">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal method" id="ILLEGAL_METHOD">
+    <violation name="Illegal method - PCI 6.5.6" id="ILLEGAL_METHOD">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal flow to URL" id="FLOW_TO_OBJ">
+    <violation name="Illegal flow to URL - PCI 6.5.6" id="FLOW_TO_OBJ">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Parameter value does not comply with regular expression" id="PARAM_VALUE_NOT_MATCHING_REGEX">
+    <violation name="Parameter value does not comply with regular expression - PCI 6.5.6" id="PARAM_VALUE_NOT_MATCHING_REGEX">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal number of mandatory parameters" id="NUM_OF_MANDATORY_PARAMS">
+    <violation name="Illegal number of mandatory parameters - PCI 6.5.6" id="NUM_OF_MANDATORY_PARAMS">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal parameter numeric value" id="PARAM_NUMERIC_VALUE">
+    <violation name="Illegal parameter numeric value - PCI 6.5.6" id="PARAM_NUMERIC_VALUE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal dynamic parameter value" id="DYN_PARAM_VALUE">
+    <violation name="Illegal dynamic parameter value - PCI 6.5.6" id="DYN_PARAM_VALUE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal static parameter value" id="STATIC_PARAM_VALUE">
+    <violation name="Illegal static parameter value - PCI 6.5.6" id="STATIC_PARAM_VALUE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Expired timestamp" id="EXPIRED_TIMESTAMP">
+    <violation name="Expired timestamp - PCI 6.5.6" id="EXPIRED_TIMESTAMP">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="ASM Cookie Hijacking" id="MSG_KEY">
+    <violation name="ASM Cookie Hijacking - PCI 6.5.6" id="MSG_KEY">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Access from disallowed User/Session/IP/Device ID" id="SESSION_AWARENESS">
+    <violation name="Access from disallowed User/Session/IP/Device ID - PCI 6.5.6" id="SESSION_AWARENESS">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal entry point" id="ENTRY_POINT">
+    <violation name="Illegal entry point - PCI 6.5.6" id="ENTRY_POINT">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Modified ASM cookie" id="MOD_ASM_COOKIE">
+    <violation name="Modified ASM cookie - PCI 6.5.6" id="MOD_ASM_COOKIE">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal HTTP status in response" id="HTTP_STATUS_IN_RESPONSE">
+    <violation name="Illegal HTTP status in response - PCI 6.5.6" id="HTTP_STATUS_IN_RESPONSE">
       <alarm>true</alarm>
       <block>true</block>
       <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Access from malicious IP address" id="PARSER_ACCESS_FROM_MALICIOUS_IP_ADDRESS">
+    <violation name="Access from malicious IP address - PCI 6.5.6" id="PARSER_ACCESS_FROM_MALICIOUS_IP_ADDRESS">
       <alarm>true</alarm>
       <block>true</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Mandatory HTTP header is missing" id="MISSING_MANDATORY_HEADER">
+    <violation name="Mandatory HTTP header is missing - PCI 6.5.6" id="MISSING_MANDATORY_HEADER">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Bad WebSocket handshake request" id="WEBSOCKET_BAD_REQUEST">
+    <violation name="Bad WebSocket handshake request - PCI 6.5.6" id="WEBSOCKET_BAD_REQUEST">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Failure in WebSocket framing protocol" id="WEBSOCKET_FRAMING_PROTOCOL">
+    <violation name="Failure in WebSocket framing protocol - PCI 6.5.6" id="WEBSOCKET_FRAMING_PROTOCOL">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Mask not found in client frame" id="WEBSOCKET_FRAME_MASKING">
+    <violation name="Mask not found in client frame - PCI 6.5.6" id="WEBSOCKET_FRAME_MASKING">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal WebSocket frame length" id="WEBSOCKET_FRAME_LENGTH">
+    <violation name="Illegal WebSocket frame length - PCI 6.5.6" id="WEBSOCKET_FRAME_LENGTH">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Null character found in WebSocket text message" id="WEBSOCKET_TEXT_NULL_VALUE">
+    <violation name="Null character found in WebSocket text message - PCI 6.5.6" id="WEBSOCKET_TEXT_NULL_VALUE">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal cross-origin request" id="CROSS_ORIGIN_REQUEST">
+    <violation name="Illegal cross-origin request - PCI 6.5.6" id="CROSS_ORIGIN_REQUEST">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Text content found in binary only WebSocket" id="WEBSOCKET_TEXT_MESSAGE_NOT_ALLOWED">
+    <violation name="Text content found in binary only WebSocket - PCI 6.5.6" id="WEBSOCKET_TEXT_MESSAGE_NOT_ALLOWED">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Binary content found in text only WebSocket" id="WEBSOCKET_BINARY_MESSAGE_NOT_ALLOWED">
+    <violation name="Binary content found in text only WebSocket - PCI 6.5.6" id="WEBSOCKET_BINARY_MESSAGE_NOT_ALLOWED">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal WebSocket extension" id="WEBSOCKET_EXTENSION">
+    <violation name="Illegal WebSocket extension - PCI 6.5.6" id="WEBSOCKET_EXTENSION">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal number of frames per message" id="WEBSOCKET_FRAMES_PER_MESSAGE_COUNT">
+    <violation name="Illegal number of frames per message - PCI 6.5.6" id="WEBSOCKET_FRAMES_PER_MESSAGE_COUNT">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Illegal WebSocket binary message length" id="WEBSOCKET_BINARY_MESSAGE_LENGTH">
+    <violation name="Illegal WebSocket binary message length - PCI 6.5.6" id="WEBSOCKET_BINARY_MESSAGE_LENGTH">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Plain text data does not comply with format settings" id="PLAINTEXT_FORMAT_SETTING">
+    <violation name="Plain text data does not comply with format settings - PCI 6.5.6" id="PLAINTEXT_FORMAT_SETTING">
       <alarm>false</alarm>
       <block>false</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="IP is blacklisted" id="BLACKLISTED_IP">
+    <violation name="IP is blacklisted - PCI 6.5.6" id="BLACKLISTED_IP">
       <alarm>true</alarm>
       <block>true</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
-    <violation name="Threat Campaign detected" id="THREAT_CAMPAIGN_DETECTED">
+    <violation name="Threat Campaign detected - PCI 6.5.6" id="THREAT_CAMPAIGN_DETECTED">
       <alarm>true</alarm>
       <block>true</block>
       <learn>false</learn>
