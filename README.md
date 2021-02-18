@@ -34,7 +34,7 @@ inspec exec demo-setup --input bigip_host=[hostname of bigip] bigip_mgmt_port=[m
 ## Usage
 - before connecting to your jumphost, place the private key on the jumphost with the following command
 ```bash
-scp -i <path to privatekeyfile> ubuntu@<ubuntuserver>:~/privatekeyfile
+scp -i <path to privatekeyfile> <privatekeyfile> ubuntu@<ubuntuserver>:~/privatekeyfile
 ```
 
 - ssh into your jumphost with the following command
